@@ -55,12 +55,12 @@ const RilexWebsite = () => {
           <div className="relative">
             <div className="relative z-10 rounded-full overflow-hidden w-96 h-96 mx-auto">
               <img 
-                src="/api/placeholder/400/400" 
+                src="/images/annie-spratt-sggw4-qDD54-unsplash.jpg" 
                 alt="Professional team collaboration"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-r from-green-400/20 to-cyan-400/20 rounded-full transform rotate-12"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-400/60 to-cyan-400/60 rounded-full transform rotate-12"></div>
           </div>
         </div>
       </section>
@@ -76,11 +76,11 @@ const RilexWebsite = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* RILEX Custom Works */}
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
+              <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6 bg-white">
                 <img 
-                  src="/api/placeholder/150/150" 
-                  alt="Custom Works Team"
-                  className="w-full h-full object-cover"
+                  src="/images/rilex-logo-for-light.png" 
+                  alt="Rilex Custom Works"
+                  className="w-full h-full object-scale-down rounded-lg"
                 />
               </div>
               <h4 className="text-xl font-bold text-yellow-400 mb-4">
@@ -99,10 +99,10 @@ const RilexWebsite = () => {
 
             {/* RILEX Design Company */}
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
+              <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6">
                 <img 
-                  src="/api/placeholder/150/150" 
-                  alt="Design Company Team"
+                  src="/images/kelly-sikkema--q69Jfp6MtM-unsplash.jpg" 
+                  alt="Rilex Design Company"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -123,11 +123,11 @@ const RilexWebsite = () => {
 
             {/* Special Ops Advocacy */}
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
+              <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6 bg-white">
                 <img 
-                  src="/api/placeholder/150/150" 
-                  alt="Special Ops Team"
-                  className="w-full h-full object-cover"
+                  src="/images/special-ops-advocacy-for-light.PNG" 
+                  alt="Special Ops Advocacy"
+                  className="w-full h-full object-scale-down rounded-lg"
                 />
               </div>
               <h4 className="text-xl font-bold text-yellow-400 mb-4">
