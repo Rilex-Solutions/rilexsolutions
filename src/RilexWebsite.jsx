@@ -31,7 +31,7 @@ const RilexWebsite = () => {
           <div>
             <h3 className="text-5xl font-bold text-cyan-400 mb-8 transform -skew-x-6">
               WE STARTED<br />
-              SMALL. <span className="text-green-400">///</span>
+              SMALL. <span className="text-green-400">/--/</span>
             </h3>
             
             <div className="space-y-6 text-gray-300 leading-relaxed">
@@ -167,7 +167,7 @@ const RilexWebsite = () => {
                 and in-depth knowledge required to 
                 deliver exceptional results.
               </p>
-              <div className="text-cyan-400 text-2xl font-bold">///</div>
+              <div className="text-cyan-400 text-2xl font-bold">/--/</div>
             </div>
 
             <div>
@@ -181,7 +181,7 @@ const RilexWebsite = () => {
                 clients means we can deliver 
                 customized solutions.
               </p>
-              <div className="text-cyan-400 text-2xl font-bold">///</div>
+              <div className="text-cyan-400 text-2xl font-bold">/--/</div>
             </div>
 
             <div>
@@ -194,7 +194,7 @@ const RilexWebsite = () => {
                 Eliminating the need for multiple vendors 
                 or agencies.
               </p>
-              <div className="text-cyan-400 text-2xl font-bold">///</div>
+              <div className="text-cyan-400 text-2xl font-bold">/--/</div>
             </div>
           </div>
         </div>
