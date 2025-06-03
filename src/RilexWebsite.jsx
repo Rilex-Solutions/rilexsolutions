@@ -55,7 +55,7 @@ const RilexWebsite = () => {
           <div className="relative">
             <div className="relative z-10 rounded-full overflow-hidden w-96 h-96 mx-auto">
               <img 
-                src="/images/annie-spratt-sggw4-qDD54-unsplash.jpg" 
+                src="./images/annie-spratt-sggw4-qDD54-unsplash.jpg" 
                 alt="Professional team collaboration"
                 className="w-full h-full object-cover"
               />
@@ -78,7 +78,7 @@ const RilexWebsite = () => {
             <div className="text-center">
               <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6 bg-white">
                 <img 
-                  src="/images/rilex-logo-for-light.png" 
+                  src="./images/rilex-logo-for-light.png" 
                   alt="Rilex Custom Works"
                   className="w-full h-full object-scale-down rounded-lg"
                 />
@@ -101,7 +101,7 @@ const RilexWebsite = () => {
             <div className="text-center">
               <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6">
                 <img 
-                  src="/images/kelly-sikkema--q69Jfp6MtM-unsplash.jpg" 
+                  src="./images/kelly-sikkema--q69Jfp6MtM-unsplash.jpg" 
                   alt="Rilex Design Company"
                   className="w-full h-full object-cover"
                 />
@@ -125,7 +125,7 @@ const RilexWebsite = () => {
             <div className="text-center">
               <div className="w-52 h-52 rounded-full overflow-hidden mx-auto mb-6 bg-white">
                 <img 
-                  src="/images/special-ops-advocacy-for-light.PNG" 
+                  src="./images/special-ops-advocacy-for-light.PNG" 
                   alt="Special Ops Advocacy"
                   className="w-full h-full object-scale-down rounded-lg"
                 />
