@@ -1,7 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT, COMPANY_INFO } from '../../constants';
 import { ScrollReveal } from '../';
-import { scrollToSection } from '../../utils';
 import styles from './Hero.module.css';
 
 const Hero = () => {
