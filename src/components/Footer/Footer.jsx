@@ -1,6 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO, SOCIAL_LINKS } from '../../constants';
-import SocialIcon from './SocialIcon';
+import { COMPANY_INFO } from '../../constants';
 
 const Footer = () => {
   return (
@@ -23,19 +22,6 @@ const Footer = () => {
             <div>
               <h4 className="text-yellow-400 font-semibold mb-2">Email</h4>
               <p className="text-gray-300">{COMPANY_INFO.email}</p>
-            </div>
-            
-            <div>
-              <h4 className="text-yellow-400 font-semibold mb-2">Social</h4>
-              <div className="flex space-x-4">
-                {SOCIAL_LINKS.map((social) => (
-                  <SocialIcon 
-                    key={social.platform}
-                    platform={social.platform}
-                    icon={social.icon}
-                  />
-                ))}
-              </div>
             </div>
           </div>
         </div>

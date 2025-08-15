@@ -8,3 +8,6 @@ export { default as Footer } from './Footer';
 export { default as Layout } from './Layout';
 export { default as ErrorBoundary } from './ErrorBoundary';
 export { default as Loading } from './Loading';
+export { default as ScrollReveal } from './ScrollReveal';
+export { default as ParallaxElement } from './ParallaxElement';
+export { default as ScrollProgress } from './ScrollProgress';

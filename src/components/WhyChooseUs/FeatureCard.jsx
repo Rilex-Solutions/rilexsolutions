@@ -16,7 +16,6 @@ const FeatureCard = ({ feature }) => {
       <p className="text-gray-300 mb-4">
         {description}
       </p>
-      <div className="text-cyan-400 text-2xl font-bold">/--/</div>
     </div>
   );
 };

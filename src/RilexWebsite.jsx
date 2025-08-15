@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
   Layout, 
-  Header, 
   Hero, 
   About, 
   Services, 
@@ -13,7 +12,6 @@ import {
 const RilexWebsite = () => {
   return (
     <Layout>
-      <Header />
       <Hero />
       <About />
       <Services />

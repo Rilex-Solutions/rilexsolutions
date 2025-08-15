@@ -1,5 +1,17 @@
 .about {
   padding: 5rem 1rem;
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-background);
+  z-index: -1;
 }
 
 .container {
@@ -12,18 +24,30 @@
 
 .content {
   order: 2;
+  background: var(--glass-background);
+  backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .headline {
   font-size: var(--font-size-5xl);
-  font-weight: bold;
-  color: var(--color-secondary);
+  font-weight: 800;
+  background: var(--gradient-accent);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
   transform: skewX(-6deg);
 }
 
 .accent {
-  color: var(--color-accent);
+  background: var(--gradient-secondary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
@@ -31,7 +55,8 @@
   flex-direction: column;
   gap: 1.5rem;
   color: var(--color-text-secondary);
-  line-height: 1.6;
+  line-height: 1.8;
+  font-size: 1.1rem;
 }
 
 .imageContainer {
@@ -42,25 +67,37 @@
 .imageWrapper {
   position: relative;
   z-index: 10;
-  border-radius: 50%;
+  border-radius: 20px;
   overflow: hidden;
-  width: 384px;
-  height: 384px;
+  width: 400px;
+  height: 300px;
   margin: 0 auto;
+  border: 3px solid transparent;
+  background: var(--gradient-primary);
+  background-clip: padding-box;
+  box-shadow: 0 20px 60px rgba(0, 212, 255, 0.3);
 }
 
 .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-normal);
+}
+
+.image:hover {
+  transform: scale(1.05);
 }
 
 .backgroundGradient {
   position: absolute;
-  inset: 0;
-  background: var(--gradient-accent);
-  border-radius: 50%;
-  transform: rotate(12deg);
+  inset: -10px;
+  background: var(--gradient-primary);
+  border-radius: 24px;
+  transform: rotate(3deg);
+  opacity: 0.3;
+  z-index: -1;
 }
 
 @media (min-width: 1024px) {

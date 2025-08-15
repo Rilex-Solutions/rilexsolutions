@@ -1,18 +1,27 @@
 :root {
-  /* Colors */
-  --color-primary: #facc15;
-  --color-primary-hover: #eab308;
-  --color-secondary: #22d3ee;
-  --color-accent: #4ade80;
-  --color-background: #000000;
+  /* Clean Modern Color Palette */
+  --color-primary: #00d4ff;         /* Electric blue */
+  --color-primary-hover: #00b8e6;   /* Darker electric blue */
+  --color-secondary: #facc15;       /* Original vibrant yellow */
+  --color-accent: #00ff88;          /* Neon green */
+  --color-background: #0a0a0a;      /* Deep black */
+  --color-background-secondary: #111111; /* Slightly lighter black */
   --color-text-primary: #ffffff;
-  --color-text-secondary: #d1d5db;
+  --color-text-secondary: #e5e7eb;
   --color-text-muted: #9ca3af;
   
-  /* Gradients */
-  --gradient-primary: linear-gradient(45deg, var(--color-secondary), var(--color-accent));
-  --gradient-background: linear-gradient(to right, rgba(22, 78, 99, 0.2), rgba(21, 94, 117, 0.2));
-  --gradient-accent: linear-gradient(to right, rgba(74, 222, 128, 0.6), rgba(34, 211, 238, 0.6));
+  /* Clean Modern Gradients */
+  --gradient-primary: linear-gradient(135deg, #00d4ff 0%, #facc15 100%);
+  --gradient-secondary: linear-gradient(135deg, #facc15 0%, #00ff88 100%);
+  --gradient-accent: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%);
+  --gradient-triple: linear-gradient(135deg, #00d4ff 0%, #facc15 50%, #00ff88 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(250, 204, 21, 0.1) 50%, rgba(0, 255, 136, 0.1) 100%);
+  --gradient-background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(250, 204, 21, 0.05) 100%);
+  
+  /* Glassmorphism */
+  --glass-background: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-backdrop: blur(20px);
   
   /* Spacing */
   --spacing-xs: 0.25rem;
