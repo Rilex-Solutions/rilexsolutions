@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.logoContainer {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  color: var(--color-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.tagline {
+  font-size: var(--font-size-sm);
+  margin-left: 0.25rem;
+}
